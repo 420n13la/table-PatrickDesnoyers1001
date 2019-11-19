@@ -1,0 +1,40 @@
+*{box-sizing: border-box;
+font-family: 'Helvetica', sans-serif;
+}
+
+table{
+border-collapse: collapse;
+width: 100%;	
+}
+
+thead tr:nth-child(1){
+	background-color: teal;
+	color: white;
+}
+
+thead tr:nth-child(2){
+	background-color: teal;
+	color: white;
+}	
+
+tbody tr:nth-child(even){
+	background-color: lightgray;
+}
+
+tr>:nth-child(11){
+	color: crimson;
+}
+
+tfoot td:nth-child(10){
+	color: crimson;
+}
+
+h2{
+	text-align: center;
+	color: red;
+}
+
+tfoot{
+	background-color: gold;	
+}
+
